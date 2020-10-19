@@ -2,9 +2,11 @@
 
 * The Substrate node I created includes the contracts pallet repo, see my code used [here](https://github.com/developery-nl/polkadot_challenge_substrate_node_contract)
 * I did use the ERC-20 contract from [ink example](https://github.com/paritytech/ink/tree/master/examples/erc20) , see my code used [here](https://github.com/developery-nl/polkadot_challenge_substrate_node_contract/erc20)
+* I used the Canvas-UI to test the contract before the deployment in the substrate dev node 
 
 My workflow:
-1. Run the substrate node with contracts pallet
+
+1. Run the substrate node that includes the contracts pallet
 2. Open the UI, connect with dev chain, I use the [polkadot app](https://polkadot.js.org/apps/#/contracts).
 3. Upload WASM ( erc20.wasm ) and contract ABI ( metadata.json )
 4. Deploy contract
