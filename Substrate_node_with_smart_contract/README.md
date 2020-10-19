@@ -1,17 +1,20 @@
 # [INTERMEDIATE CHALLENGE] Smart contracts - write an ERC-20 smart contract with ink!
 
-* Link to the Substrate node I created that includes the contracts pallet repo [here](https://github.com/developery-nl/polkadot_challenge_substrate_node_contract)
-* I did use the ERC-20 contract from [ink example](https://github.com/paritytech/ink/tree/master/examples/erc20)
+* The Substrate node I created includes the contracts pallet repo, see my code used [here](https://github.com/developery-nl/polkadot_challenge_substrate_node_contract)
+* I did use the ERC-20 contract from [ink example](https://github.com/paritytech/ink/tree/master/examples/erc20) , see my code used [here](https://github.com/developery-nl/polkadot_challenge_substrate_node_contract/erc20)
 
 My workflow:
-1. Run the substrate node with contracts pallet, the code I used can be found [here](https://github.com/developery-nl/polkadot_challenge_substrate_node_contract) 
-2. Open the UI, I use the [polkadot app](https://polkadot.js.org/apps/#/contracts).
+1. Run the substrate node with contracts pallet
+2. Open the UI, connect with dev chain, I use the [polkadot app](https://polkadot.js.org/apps/#/contracts).
 3. Upload WASM ( erc20.wasm ) and contract ABI ( metadata.json )
-4. Deploy Contract.
+4. Deploy contract
 5. Execute calls on the contract to show it is working with transfer calls and balance calls.
 
 ## Some proofs of my work done
-![Deploy contract](Schermafdruk%20van%202020-10-19%2022-00-43.png)
+
+![finish compile and start canvas to test contract](Schermafdruk%20van%202020-10-19%2015-46-26.png)
+
+![Deploy contract in Polkadot UI](Schermafdruk%20van%202020-10-19%2022-00-43.png)
 
 ![Transfer](Schermafdruk%20van%202020-10-19%2022-04-31.png)
 
