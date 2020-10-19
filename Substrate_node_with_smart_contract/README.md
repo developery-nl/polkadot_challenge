@@ -13,5 +13,5 @@ My workflow:
 ## Some proofs
 ![Deploy contract picture 1](Schermafdruk van 2020-10-19 22-04-31.png)
 
-![Deploy contract picture 1](Schermafdruk van 2020-10-19 22-06-31.png)
+![Deploy contract picture 2](Schermafdruk van 2020-10-19 22-06-31.png)
 
