@@ -4,7 +4,7 @@
 ## Approach
 Assume we have a groccery store and want to keep a balance of all kind of fruits. Our supply is defined to be 'sufficent' if we have at least 48 pieces of a type of fruit.
 
-The substrate node template has been updated to include the new struct to maintain storage of fruit and amounts.
+* The substrate node template has been updated to include the new struct to maintain storage of fruit and amounts. [here](https://github.com/developery-nl/polkadot_challenge_substrate_frame)
 
 The front end has been updated to edit these fruit and amounts.
 
